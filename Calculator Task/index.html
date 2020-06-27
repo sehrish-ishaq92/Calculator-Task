@@ -1,0 +1,56 @@
+<html>
+    <head>
+        <title>  Calculator</title>
+        <link rel="stylesheet" href="style.css">
+        <script src="app.js"></script>
+    </head>
+
+    <body style="background-image: url(https://image.freepik.com/free-photo/close-up-pen-note-paper-with-calculator-wooden-desk-background_31949-388.jpg);
+background-attachment: fixed; background-size: cover;">
+        <h1 style="text-align: center;">Calculator Task</h1>
+        <h2 style="text-align: center;color:white">Created By: Sehrish Ishaq</h2>
+        <div class= "main">
+            <input type="text" id="result">
+
+            <div class="clear">
+                <button class="btn" onclick="clearResult()"  onfocus="this.style.backgroundColor='#B0C4DE';" onBlur="this.style.backgroundColor='#B7C3D0';">CE</button>
+            </div>
+    
+<!--button 1 sec-->
+
+            <div >
+                <button class="btn" onclick="getNum('7')"  onfocus="this.style.backgroundColor='#B0C4DE';" onBlur="this.style.backgroundColor='#B7C3D0';">7</button>
+                <button class="btn" onclick="getNum('8')"  onfocus="this.style.backgroundColor='#B0C4DE';" onBlur="this.style.backgroundColor='#B7C3D0';">8</button>
+                <button class="btn" onclick="getNum('9')"  onfocus="this.style.backgroundColor='#B0C4DE';" onBlur="this.style.backgroundColor='#B7C3D0';">9</button> 
+                <button class="btn" onclick="getNum('*')"  onfocus="this.style.backgroundColor='#B0C4DE';" onBlur="this.style.backgroundColor='#B7C3D0';">*</button>
+                
+            </div>
+<!--button 2 sec-->
+
+            <div>
+                <button class="btn" onclick="getNum('4')"  onfocus="this.style.backgroundColor='#B0C4DE';" onBlur="this.style.backgroundColor='#B7C3D0';">4</button>
+                <button class="btn" onclick="getNum('5')"  onfocus="this.style.backgroundColor='#B0C4DE';" onBlur="this.style.backgroundColor='#B7C3D0';">5</button>
+                <button class="btn" onclick="getNum('6')"  onfocus="this.style.backgroundColor='#B0C4DE';" onBlur="this.style.backgroundColor='#B7C3D0';">6</button>
+                <button class="btn" onclick="getNum('-')"  onfocus="this.style.backgroundColor='#B0C4DE';" onBlur="this.style.backgroundColor='#B7C3D0';"> -</button>
+
+            </div>
+<!--button 3 sec-->
+
+            <div>
+                <button class="btn" onclick="getNum('1')"  onfocus="this.style.backgroundColor='#B0C4DE';" onBlur="this.style.backgroundColor='#B7C3D0';">1</button>
+                <button class="btn" onclick="getNum('2')"  onfocus="this.style.backgroundColor='#B0C4DE';" onBlur="this.style.backgroundColor='#B7C3D0';"> 2</button>
+                <button class="btn" onclick="getNum('3')"  onfocus="this.style.backgroundColor='#B0C4DE';" onBlur="this.style.backgroundColor='#B7C3D0';">3</button>
+                <button class="btn" onclick="getNum('+')"  onfocus="this.style.backgroundColor='#B0C4DE';" onBlur="this.style.backgroundColor='#B7C3D0';">+</button>
+
+            </div>
+<!--button 4 sec-->
+            <div>
+                <button class="btn" onclick="getNum('0')"  onfocus="this.style.backgroundColor='#B0C4DE';" onBlur="this.style.backgroundColor='#B7C3D0';"> 0</button>
+                <button class="btn" onclick="getResult()"  onfocus="this.style.backgroundColor='#B0C4DE';" onBlur="this.style.backgroundColor='#B7C3D0';"> =</button>
+                <button class="btn" onclick="getNum('%')"  onfocus="this.style.backgroundColor='#B0C4DE';" onBlur="this.style.backgroundColor='#B7C3D0';">%</button>
+                <button class="btn" onclick="getNum('/')"  onfocus="this.style.backgroundColor='#B0C4DE';" onBlur="this.style.backgroundColor='#B7C3D0';">/</button>
+            </div>
+        </div>
+    </body>
+
+</html>

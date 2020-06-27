@@ -1,0 +1,38 @@
+.main{
+    background-color:#42647F	;
+    height: auto;
+    width: 370px;
+    border:2px solid black;
+    margin: 0 auto;
+   
+
+}
+
+.main input{
+    width: 345px;
+    height: 80px;
+    margin-left: 12px;
+    margin-top: 8px;
+    font-size: 22px;
+    font-weight: bold;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    border: 2px solid black;
+
+}
+.clear button{
+    width:345px; 
+    
+}
+.btn{
+    width: 70px;
+    height: 60px;
+    margin: 6px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    margin-left: 12px;
+    font-size: 20px;
+    font-weight: bold;
+}
+
+.btn:hover {
+    background-color:skyblue;
+}
